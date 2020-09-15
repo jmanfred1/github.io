@@ -1,0 +1,103 @@
+html,
+body {
+    background-color: #9e855f;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: #453e19;
+    padding: 20px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    font-family: verdana;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #2a240f
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    overflow: auto;
+}
+
+section h1 {
+
+    color: #2a240f;
+    font-size: 180%;
+    font-family: verdana;
+
+}
+
+section h2 {
+    color: #2a240f;
+    font-size: 140%;
+    font-family: verdana;
+}
+
+
+
+footer {
+    background-color: #727368;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    font-family: verdana;
+}
+
+.trailsteam {
+    width: 30%;
+    float: right;
+    title="Explore Trails Team"
+
+}
+
+
+.button {
+    background-color: #727368;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    margin: 10px 0 0;
+    font-size: 20px;
+    font-family: Verdana;
+    border-radius: 10px;
+}
+
+a.button:hover {
+    background-color: #5892e1;
+}
