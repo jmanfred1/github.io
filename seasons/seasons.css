@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: black;
+}
+
+#spring {
+    background-color: green;
+}
+
+#wrap {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+header {
+    padding: 5px;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: #3DBA92;
+    padding: 20px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+nav a:hover {
+    color: #E50914;
+    background-color: black;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    overflow: auto;
+    font-family: veranda
+}
+
+section h1 {
+
+    color: black;
+    font-size: 180%;
+    font-family: verdana;
+
+}
+
+section h2 {
+    color: black;
+    font-size: 140%;
+    font-family: verdana;
+}
+
+
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    font-family: verdana;
+}
+
+.streaming {
+    width: 30%;
+    float: right;
+    padding: 10px;
+
+}
+
+.gif {
+    width 40%;
+    float: right;
+    padding: 10px;
+}
+
+.hulu {
+    width: 10%;
+    padding: 10px;
+
+}
+
+.netflix {
+    width: 10%;
+    padding: 10px;
+
+}
+
+.peacock {
+    width: 10%;
+    padding: 10px;
+}
