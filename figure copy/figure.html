@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Figure</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="figure.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="box">
+
+                <h1>Welcome World</h1>
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla mi in venenatis sodales. Nam eu suscipit nisl. Quisque sit amet lacus sapien. Duis pharetra imperdiet enim. Phasellus fringilla euismod faucibus. Nullam tristique non sem eu eleifend. Phasellus euismod nulla sit amet enim dapibus suscipit. Fusce congue bibendum fermentum. Duis quis porttitor nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+                Quisque accumsan elit vitae urna egestas auctor. Proin a nunc a quam sollicitudin tincidunt nec et mi. Nulla non feugiat ante. Nulla nec sem id ligula molestie rutrum. Nam ultricies ut purus interdum suscipit. Suspendisse potenti. Ut gravida ante ut mi faucibus tempor. Aenean nec lacus porta, facilisis felis ut, maximus tellus. Nam justo mi, porttitor ut massa eget, semper convallis ligula. Vivamus posuere ut lectus vel rhoncus. Aliquam semper convallis mi, non egestas lectus sagittis ac. Nam gravida sit amet magna et faucibus. Morbi ultricies id eros eu eleifend. Aenean commodo nunc at diam faucibus commodo. Donec id interdum urna.
+            </div>
+        </header>
+
+        <nav>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="saintswallpaper.jpg" data-thumb="saintswallpaper.jpg" alt="Home of the greatest NFL QB" />
+                    <a href="http://wsu.edu"><img src="wsu.jpg" data-thumb="wsu.jpg" alt="most recognizable logo in sports" title="GO COUGS" /></a>
+                    <img src="giants.jpg" data-thumb="giants.jpg" alt="2010, 2012, 2014 World Champs" data-transition="slideInLeft" />
+                    <img src="tiger.jpg" data-thumb="tiger.jpg" alt="the goat" title="#htmlcaption" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>Who Says You Can't Be Romantic About Sports?</strong> -Brad Pitt, Moneyball.
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+        </section>
+
+        <footer>
+            Footer
+        </footer>
+    </div>
+    <!--End wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>
